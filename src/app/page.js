@@ -1,18 +1,17 @@
 "use client";
-import React from 'react';
-import Header from './components/Header';
-import Sidebar from './components/SideBar';
-import MainContent from './components/main';
-import News from './components/News';
+import Header from "./components/Header";
+import Sidebar from "./components/SideBar";
+import MainContent from "./components/main";
+import News from "./components/News";
 export default function Home() {
-  return (
-    <div className="bg-white min-h-screen flex flex-col">
-      <Header />
-      <div className="flex ">
-      < Sidebar />
-        <MainContent />
-        <News/>
-      </div>
-    </div>
-  );
+	return (
+		<div className="bg-gray-50 min-h-screen flex flex-col relative">
+			<Header />
+			<div className="flex flex-col w-full lg:xl:flex-row">
+				<Sidebar />
+				<MainContent />
+				<News />
+			</div>
+		</div>
+	);
 }
