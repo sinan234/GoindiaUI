@@ -5,7 +5,7 @@ import { FaUserAlt } from "react-icons/fa";
 
 export default function MainContent() {
     return (
-      <div className="flex-grow bg-white p-4 border border-gray-300 m-4 shadow-lg   scroll-mr-40" style={{overflowY: 'scroll'}}>
+      <div className="flex-grow bg-white p-4 border border-gray-300 m-4 shadow-lg   mr-54   " style={{overflowY: 'scroll'}}>
         <h2 className="text-red-600 text-2xl font-Poppins">DISCUSSION FORUM </h2>
         <div className="bg-white rounded-md border border-gray-300 p-4">
           <h3 className="font-semibold text-black text-lg mb-2">Filters</h3>
